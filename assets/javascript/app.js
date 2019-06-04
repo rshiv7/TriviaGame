@@ -133,7 +133,7 @@ var count = 30;
 var questionArray = ["Which character is sent to Anger Management?", "Which character is the owner of the office complex where Dunder Mifflin is situated?", "Which character was in the same High-School as Michael?", "Which character brings a huge container of chilli to the office?", "Which character promises to pay the college tuition for a class of 3rd Graders?"];
 var answerArray = [["Andy", "Dwight", "Jim", "Ryan"], ["Andy", "Dwight", "Michael", "Robert"], ["Dwight", "Angela", "Phyllis", "Stanley"], ["Stanley", "Pam", "Kevin", "Ryan"], ["Stanley", "Dwight", "Jim", "Michael"]];
 var imageArray = ["<img class='center-block img-right' src='assets/images/Andy.jpg'>", "<img class='center-block img-right' src='assets/images/Dwight.jpg'>", "<img class='center-block img-right' src='assets/images/Phyllis.png'>", "<img class='center-block img-right' src='assets/images/Kevin.jpg'>", "<img class='center-block img-right' src='assets/images/Michael.jpg'>"];
-var correctAnswers = ["A. Andy", "B. Dwight", "C. Phyillis", "C. Kevin", "D. Michael"];
+var correctAnswers = ["A. Andy", "B. Dwight", "C. Phyllis", "C. Kevin", "D. Michael"];
 var questionCounter = 0 ;
 var selectedAnswer;
 var theClock;
