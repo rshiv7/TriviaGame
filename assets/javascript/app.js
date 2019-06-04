@@ -121,7 +121,11 @@ function resetGame() {
     incorrectTally = 0;
     unansweredTally = 0;
     count = 30;
+
+    generateHTML();
+	timerWrapper();
 }
+
 
 var startScreen;
 var gameHTML;
