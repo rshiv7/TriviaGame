@@ -41,7 +41,7 @@ $("body").on("click", ".answer", function (event) {
 });
 
 
-$("body").on("click", ".reset-button", function (event) {
+$("body").on("click", ".reset-button", function(event) {
 
     resetGame();
 });
@@ -79,10 +79,12 @@ function generateLoss() {
 function generateHTML() {
     gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>30</span></p><p class='text-center'>" + questionArray[questionCounter] + "</p><p class='first-answer answer'>A. " + answerArray[questionCounter][0] + "</p><p class='answer'>B. " + answerArray[questionCounter][1] + "</p><p class='answer'>C. " + answerArray[questionCounter][2] + "</p><p class='answer'>D. " + answerArray[questionCounter][3] + "</p>";
     $(".mainArea").html(gameHTML);
+    
 }
 
+
 function wait() {
-    if (questionCounter < 5) {
+    if (questionCounter < 4) {
         questionCounter++;
         generateHTML();
         count = 30;
@@ -128,8 +130,8 @@ var questionArray = ["Which character is sent to Anger Management?", "Which char
 var answerArray = [["Andy", "Dwight", "Jim", "Ryan"], ["Andy", "Dwight", "Michael", "Robert"], ["Dwight", "Angela", "Phyllis", "Stanley"], ["Stanley", "Pam", "Kevin", "Ryan"], ["Stanley", "Dwight", "Jim", "Michael"]];
 var imageArray = ["<img class='center-block img-right' src='assets/images/Andy.jpg'>", "<img class='center-block img-right' src='assets/images/Dwight.jpg'>", "<img class='center-block img-right' src='assets/images/Phyllis.png'>", "<img class='center-block img-right' src='assets/images/Kevin.jpg'>", "<img class='center-block img-right' src='assets/images/Michael.jpg'>"];
 var correctAnswers = ["A. Andy", "B. Dwight", "C. Phyillis", "C. Kevin", "D. Michael"];
-var questionCounter= 0 ;
-var selecterAnswer;
+var questionCounter = 0 ;
+var selectedAnswer;
 var theClock;
 var correctTally = 0;
 var incorrectTally = 0;
