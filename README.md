@@ -30,4 +30,4 @@
 
 * [Raghav Shiv](https://github.com/rshiv7)
 
-### [Click to Play]( https://github.com/rshiv7/TriviaGame)
+### [Click to Play](https://rshiv7.github.io/TriviaGame/)
